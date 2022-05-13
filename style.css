@@ -193,7 +193,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 200px;
+  width: 220px;
   height: 45vh;
   padding: 2%;
 }
@@ -248,4 +248,18 @@ h1 {
 
 .plan-missing {
   text-decoration: line-through;
+  color: red;
+}
+
+.footer {
+  background-color: rgb(18, 42, 87);
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.anchor{
+  width: 10px;
+  height: 10px;
 }
