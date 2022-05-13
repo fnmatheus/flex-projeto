@@ -1,0 +1,251 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.header {
+  background: rgb(18, 42, 87);
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding-left: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header section {
+  display: flex;
+  gap: 20px;
+}
+
+.section-config {
+  text-align: center;
+  font-size: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3vh;
+  margin-top: 120px;
+}
+
+.home div {
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1 {
+  font-size: 5vh;
+  line-height: 5vh;
+  margin: 0;
+}
+
+.home a {
+  background-color: rgb(18, 42, 87);
+  width: 60%;
+  padding: 3% 0;
+  font-size: 100%;
+  text-decoration: none;
+  color: white;
+  border-radius: 6vh 6vh;
+}
+
+.home img {
+  width: 60vh;
+  height: auto;
+}
+
+.about div {
+  width: 90vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: left;
+}
+
+.about img {
+  width: 40vh;
+}
+
+.about h2 {
+  font-size: 3.5vh;
+  color: rgb(18, 42, 87);
+}
+
+.about h2::before{
+  content: '';
+  width: 0.7vh;
+  height: 4vh;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 0.8vh;
+  background: rgb(18, 42, 87);
+}
+
+.services {
+  background: rgb(18, 42, 87);
+  margin-top: 120px;
+  padding: 2vh;
+  padding-bottom: 100px;
+}
+
+.services-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10vh;
+}
+
+.services h2 {
+  font-size: 3.5vh;
+  color: white;
+}
+
+.services h2::before{
+  content: '';
+  width: 0.7vh;
+  height: 4vh;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 0.8vh;
+  background: white;
+}
+
+.services-options img {
+  height: 20vh;
+  width: auto;
+}
+
+.services-options {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-options p {
+  font-size: 2vh;
+  color: white;
+}
+
+.services-options a {
+  text-decoration: none;
+  color: rgb(18, 42, 87);
+  background: white;
+  width: 15vh;
+  padding: 3% 0;
+  font-size: 100%;
+  border-radius: 6vh 6vh;
+}
+
+.plans {
+  margin-top: 10px;
+  padding: 2vh;
+}
+
+.plans h2 {
+  font-size: 3.5vh;
+  color: rgb(18, 42, 87);
+}
+
+.plans h2::before{
+  content: '';
+  width: 0.7vh;
+  height: 4vh;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 0.8vh;
+  background: rgb(18, 42, 87);
+}
+
+#plans-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10vh;
+}
+
+.plans-div {
+  border: 3px solid rgb(18, 42, 87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 45vh;
+  padding: 2%;
+}
+
+.plans-div h3{
+  font-size: 20pt;
+}
+
+.plans-div h3::after{
+  content: '';
+  width: 200px;
+  margin-top: 25px;
+  height: 0.3vh;
+  display: block;
+  margin-right: 5px;
+  position: relative;
+  bottom: 5px;
+  background: rgb(18, 42, 87);
+}
+
+.plans-div p {
+  margin: 0;
+  text-align: left;
+  font-size: 2vh;
+  line-height: 35px;
+}
+
+.plans-div p::before{
+  content: '';
+  width: 0.5vh;
+  height: 0.5vh;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  bottom: 5px;
+  background: rgb(18, 42, 87);
+}
+
+.plans-div a {
+  text-decoration: none;
+  color: white;
+  background: rgb(18, 42, 87);
+  width: 15vh;
+  padding: 3% 0;
+  font-size: 100%;
+  border-radius: 6vh 6vh;
+}
+
+.plans-div div {
+  height: 300px;
+}
+
+.plan-missing {
+  text-decoration: line-through;
+}
